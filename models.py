@@ -17,7 +17,7 @@ class TSC_SGC_P(nn.Module):   #pubmed
         self.params0 = self.fcs0.parameters()
         self.params1 = self.encoder.parameters()
         self.params2 = self.fcs1.parameters()
-        self.lamda = args.lamda_c
+        self.lamda = args.lamda
         self.tau = args.tau
         self.dropout_c=args.dropout_c
         if args.k ==1:
@@ -70,7 +70,7 @@ class TSC_SGC_C(nn.Module):  # cora、citeseer
         self.encoder = nn.Linear(nfeat, args.hid)
         self.params1 = self.encoder.parameters()
         self.params2 = self.fcs1.parameters()
-        self.lamda = args.lamda_c
+        self.lamda = args.lamda
         self.tau = args.tau
         self.dropout_c=args.dropout_c
         if args.k ==1:
@@ -125,7 +125,7 @@ class TSC_GCN(nn.Module):  #GCN + Random Mask+CC
         self.dropout_rate = args.dropout
         self.dropout = nn.Dropout(p=self.dropout_rate)
         self.tau= args.tau
-        self.lamda=args.lamda_c
+        self.lamda=args.lamda
         self.dropout_c = args.dropout_c
 
     def sim(self, z1, z2):
