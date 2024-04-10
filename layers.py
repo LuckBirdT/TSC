@@ -21,12 +21,12 @@ class Part_GraphConvolution(nn.Module):
         random.shuffle(adding)
         return drop_mask +adding
 
-    def forward(self, input, adj, rate,l): # l层数
+    def forward(self, input, adj, rate,l): 
         if l <= 2:
             rate = 0
         else:
             rate = 1 - math.log(rate / (l + 1) + 1)
-        # 部分卷积
+
         drop_mask = self.get_mask(input, rate)
         hi = torch.sparse.mm(adj, input)
         hi = hi.clone()

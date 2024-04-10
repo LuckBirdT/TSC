@@ -45,7 +45,7 @@ args = parser.parse_args()
 args.cuda =args.cuda and torch.cuda.is_available()
 
 
-data =   load_data(args.data)# load_data_pcc(args.data)
+data =   load_data(args.data)
 nfeat = data.num_features
 nclass = int(data.y.max())+1
 
