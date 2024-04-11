@@ -167,7 +167,7 @@ class TSC_GCN(nn.Module):  #GCN + Random Mask+CC
             if l >= 1:
                 x = self.dropout(x)
                 current= layer(x, adj)
-                x=self.random_mask(x,current,self.lamda,l+1)
+                x=self.random_mask(x,current,self.lamda,l+2)
                 x = mask * x + (1 - mask) * one
                 if l ==len(self.hidden_layers)-1:
                     loss += self.bind_loss(F.dropout(x, self.dropout_c), F.dropout(x, self.dropout_c))
