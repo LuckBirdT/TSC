@@ -1,0 +1,2 @@
+ACC,MAD,Model,nLayers,lr,dropout,parameters
+0.811,0,GAT_TSC,3,0.05,0.6,{'data': 'cora', 'model': 'GAT_TSC', 'hid': 64, 'lr': 0.05, 'dropout': 0.6, 'epochs': 100, 'wightDecay': 0.0005, 'nlayer': 3, 'cuda': True, 'seed': 30, 'lamda_s': 0.2, 'norm_mode': 'None', 'norm_scale': 0.9, 'drop_message_rate': 0.7, 'feature_norm': True, 'missing_rate': 0, 'alpha': 0.1, 'lamda': 0.5, 'variant': False, 'wd1': 0.01, 'wd2': 0.0005, 'head': 8, 'al': 0.2, 'lamda_c': 0.5, 'lr1': 0.001, 'lr2': 0.1, 'tau': 0.4, 'p': 0.2, 'k': 1}
