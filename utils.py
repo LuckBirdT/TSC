@@ -15,6 +15,7 @@ def train(net, modelName,optimizer, criterion, data):
     optimizer.step()
     return loss, acc,mad,feature_k
 
+#验证和测试
 def val_and_test(net, modelName,data):
     net.eval()
     if modelName=="TSC_SGC_P" or modelName == "TSC_GCN" or modelName=="TSC_SGC_C" :
