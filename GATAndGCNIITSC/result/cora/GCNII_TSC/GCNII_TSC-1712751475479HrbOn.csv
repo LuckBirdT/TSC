@@ -1,0 +1,2 @@
+ACC,MAD,Model,nLayers,lr,dropout,parameters
+0.845,0,GCNII_TSC,10,0.05,0.6,{'data': 'cora', 'model': 'GCNII_TSC', 'hid': 64, 'lr': 0.05, 'dropout': 0.6, 'epochs': 100, 'wightDecay': 0.0005, 'nlayer': 10, 'cuda': True, 'seed': 30, 'norm_mode': 'None', 'norm_scale': 0.9, 'drop_message_rate': 0.7, 'feature_norm': True, 'missing_rate': 0, 'alpha': 0.1, 'lam': 0.5, 'variant': False, 'wd1': 0.01, 'wd2': 0.0005, 'head': 8, 'al': 0.2, 'lamda': 0.8, 'tau': 0.4, 'k': 1}
