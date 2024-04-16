@@ -1,0 +1,2 @@
+ACC,Model,nLayers,lr,dropout,parameters
+0.592,deepGCN,8,0.01,0.6,{'block': 'res', 'act': 'relu', 'norm': 'batch', 'bias': True, 'n_filters': 256, 'n_blocks': 14, 'conv': 'gin', 'n_heads': 8, 'data': 'citeseer', 'model': 'deepGCN', 'hid': 256, 'lr': 0.01, 'dropout': 0.6, 'epochs': 500, 'wightDecay': 0.0005, 'nlayer': 8, 'cuda': True, 'seed': 30, 'device': device(type='cuda'), 'n_classes': 6, 'in_channels': 3703}
