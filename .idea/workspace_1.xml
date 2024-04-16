@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b44b7c04-9f59-4cac-a4ca-92bd8ed9f220" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OJA3sVaxmLlVdpkutEaNulNEee" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/work/task/ourExperiment/baseline/GNN/ccTest.py&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\task\ourExperiment\baseline\GNN" />
+      <recent name="D:\work\task\ourExperiment\我的模型\GNN\data\PPI\raw" />
+      <recent name="D:\work\task\ourExperiment\新阶段\代码\ContraNorm\ContraNorm-main\gnn\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="ccTest" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="gnn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Anaconda\envs\pytorch\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ccTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="collect_result" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gnn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/collect_result.py" />
+      <option name="PARAMETERS" value="--model GCN --data citeseer" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dataSetTest" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="gnn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Anaconda\envs\pytorch\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataSetTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="grid_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gnn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\work\task\ourExperiment\我的模型\论文计划\baseline\CGCN\grid_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="gnn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Anaconda\envs\pytorch\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.ccTest" />
+      <item itemvalue="Python.dataSetTest" />
+      <item itemvalue="Python.collect_result" />
+      <item itemvalue="Python.grid_search" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.collect_result" />
+        <item itemvalue="Python.grid_search" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b44b7c04-9f59-4cac-a4ca-92bd8ed9f220" name="Changes" comment="" />
+      <created>1681268117978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681268117978</updated>
+      <workItem from="1681268131064" duration="33987000" />
+      <workItem from="1681457578862" duration="4380000" />
+      <workItem from="1681462044398" duration="4578000" />
+      <workItem from="1681801949750" duration="669000" />
+      <workItem from="1681803651697" duration="157000" />
+      <workItem from="1681803861006" duration="12941000" />
+      <workItem from="1681871777595" duration="39000" />
+      <workItem from="1681871842749" duration="635000" />
+      <workItem from="1681874173866" duration="40000" />
+      <workItem from="1681874233577" duration="6272000" />
+      <workItem from="1682044149849" duration="469000" />
+      <workItem from="1682044888478" duration="10398000" />
+      <workItem from="1682130241776" duration="14205000" />
+      <workItem from="1682219054168" duration="1230000" />
+      <workItem from="1682322810022" duration="18852000" />
+      <workItem from="1682669420582" duration="2241000" />
+      <workItem from="1683181048364" duration="420000" />
+      <workItem from="1683209069316" duration="343000" />
+      <workItem from="1684898286578" duration="731000" />
+      <workItem from="1684914822702" duration="3683000" />
+      <workItem from="1685005553720" duration="4041000" />
+      <workItem from="1695277154622" duration="328000" />
+      <workItem from="1695280593740" duration="2715000" />
+      <workItem from="1695284007214" duration="838000" />
+      <workItem from="1695285203375" duration="3347000" />
+      <workItem from="1695305019387" duration="1135000" />
+      <workItem from="1695730055209" duration="1260000" />
+      <workItem from="1695903050769" duration="717000" />
+      <workItem from="1698221601207" duration="3000" />
+      <workItem from="1698221647816" duration="245000" />
+      <workItem from="1701675476588" duration="393000" />
+      <workItem from="1701676096342" duration="10171000" />
+      <workItem from="1701743563713" duration="2494000" />
+      <workItem from="1701761470470" duration="1734000" />
+      <workItem from="1701781649453" duration="3856000" />
+      <workItem from="1701833975774" duration="9281000" />
+      <workItem from="1701855252467" duration="157000" />
+      <workItem from="1701856309645" duration="13624000" />
+      <workItem from="1701912127039" duration="305000" />
+      <workItem from="1702083559410" duration="396000" />
+      <workItem from="1702086482712" duration="251000" />
+      <workItem from="1702279804450" duration="3103000" />
+      <workItem from="1702345793229" duration="12000" />
+      <workItem from="1702345841286" duration="5882000" />
+      <workItem from="1702436123397" duration="1512000" />
+      <workItem from="1702438030720" duration="26328000" />
+      <workItem from="1702535603038" duration="325000" />
+      <workItem from="1702535961089" duration="17395000" />
+      <workItem from="1702632300703" duration="6397000" />
+      <workItem from="1702688130384" duration="2116000" />
+      <workItem from="1702903116138" duration="2504000" />
+      <workItem from="1702910316980" duration="3797000" />
+      <workItem from="1702949091202" duration="22041000" />
+      <workItem from="1702995633393" duration="7070000" />
+      <workItem from="1703066434739" duration="7058000" />
+      <workItem from="1703079379378" duration="29719000" />
+      <workItem from="1703493107496" duration="506000" />
+      <workItem from="1703556579722" duration="59000" />
+      <workItem from="1703557502595" duration="14239000" />
+      <workItem from="1703637422919" duration="1165000" />
+      <workItem from="1703641602412" duration="6847000" />
+      <workItem from="1703653133098" duration="11053000" />
+      <workItem from="1703772595717" duration="12164000" />
+      <workItem from="1703938407754" duration="704000" />
+      <workItem from="1703939775854" duration="2185000" />
+      <workItem from="1703943115211" duration="933000" />
+      <workItem from="1703993364018" duration="13351000" />
+      <workItem from="1704285177260" duration="3621000" />
+      <workItem from="1704330470499" duration="649000" />
+      <workItem from="1704337117622" duration="6506000" />
+      <workItem from="1704416846788" duration="17000" />
+      <workItem from="1704470506911" duration="1981000" />
+      <workItem from="1704786208691" duration="4035000" />
+      <workItem from="1704849469027" duration="12334000" />
+      <workItem from="1705023561074" duration="17828000" />
+      <workItem from="1705044415318" duration="6249000" />
+      <workItem from="1705058790826" duration="645000" />
+      <workItem from="1705118587353" duration="5786000" />
+      <workItem from="1705138850959" duration="63993000" />
+      <workItem from="1705337169822" duration="13291000" />
+      <workItem from="1705734304214" duration="11410000" />
+      <workItem from="1705884202114" duration="32464000" />
+      <workItem from="1705932374217" duration="399000" />
+      <workItem from="1705979598687" duration="1547000" />
+      <workItem from="1705992196701" duration="19592000" />
+      <workItem from="1706056625220" duration="11613000" />
+      <workItem from="1706174691713" duration="9108000" />
+      <workItem from="1706263862750" duration="73000" />
+      <workItem from="1706322782338" duration="2812000" />
+      <workItem from="1706345975404" duration="7091000" />
+      <workItem from="1712493228567" duration="158000" />
+      <workItem from="1712715293479" duration="1682000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataSetTest.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dataSetTest.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/grid_search.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/data.py</url>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="T2" />
+        <watch expression="input" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CGCN___$main.coverage" NAME="main 覆盖结果" MODIFIED="1705932473730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CGCN_02$main.coverage" NAME="main 覆盖结果" MODIFIED="1706448628699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/___$main.coverage" NAME="main 覆盖结果" MODIFIED="1702911509356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gnn$main.coverage" NAME="main Coverage Results" MODIFIED="1681803760268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CGCN$cmd.coverage" NAME="cmd 覆盖结果" MODIFIED="1705368231632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CGCN______$main.coverage" NAME="main 覆盖结果" MODIFIED="1706018260290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GNN$main.coverage" NAME="main 覆盖结果" MODIFIED="1701850508440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$main.coverage" NAME="main 覆盖结果" MODIFIED="1703695783642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GNN_$main.coverage" NAME="main 覆盖结果" MODIFIED="1702436319528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GNN$ccTest.coverage" NAME="ccTest 覆盖结果" MODIFIED="1695287914136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CGCN$main.coverage" NAME="main 覆盖结果" MODIFIED="1705884085434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CGCN$collect_result.coverage" NAME="collect_result 覆盖结果" MODIFIED="1705389848117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CGCN_$main.coverage" NAME="main 覆盖结果" MODIFIED="1712716709410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GNN$dataSetTest.coverage" NAME="dataSetTest Coverage Results" MODIFIED="1681812802898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
