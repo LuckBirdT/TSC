@@ -17,7 +17,7 @@ class DeepGCN(torch.nn.Module):
         conv = opt.conv
         heads = opt.n_heads
         c_growth = 0
-        self.n_blocks = opt.n_blocks
+        self.n_blocks = opt.nlayer
         self.head = GraphConv(opt.in_channels, channels, conv, act, norm, bias, heads)
         self.dropout = opt.dropout
         res_scale = 1 if opt.block.lower() == 'res' else 0
